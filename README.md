@@ -1,4 +1,4 @@
-# assignment-1-for-computer-vision
+# Assignment 1 for computer vision
 
 ### 文件说明
 
