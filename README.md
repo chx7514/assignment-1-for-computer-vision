@@ -12,6 +12,30 @@
 - output1.txt, output2.txt：两次参数查找的结果
 - params1, params2：两次参数查找的最佳模型
 
+### 参数设置
+
+以下训练、测试、参数查找均需要设置以下参数，示例如下
+
+```python
+# set the learning rate
+lr = 1e-3
+# set the penalty coefficient
+penalty = 1e-6
+# activation should be chosen from 'Sigmoid' and 'ReLU'
+activation = 'Sigmoid'
+# hidden_layers should be a list
+hidden_layers = [128, 64]
+# silent means not showing the training information
+silent = False
+# need_plot means show the plot of the training process
+need_plot = True
+# if need plot, set your path to save the figure
+acc_path = 'acc.png'
+loss_path = 'loss.png'
+```
+
+具体的设置细节可以参照对应的文件注释
+
 ### 训练
 
 在 train.py 中设置参数，并运行文件
