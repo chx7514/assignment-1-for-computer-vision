@@ -11,6 +11,7 @@
 - visualize.ipynb：可视化网络参数文件
 - output1.txt, output2.txt：两次参数查找的结果
 - params1, params2：两次参数查找的最佳模型
+- report.pdf: 实验报告
 
 ### 参数设置
 
