@@ -2,7 +2,7 @@
 
 ### 文件说明
 
-- chxtorch.py: 基于 numpy，仿照 *pytorch* 实现了简单的深度学习框架，定义了一些神经网络模块和损失函数，包括sigmoid、ReLU、Tanh、全连接层、卷积层、MSE、softmax等
+- chxtorch.py: 基于 numpy，仿照 pytorch 实现了简单的深度学习框架，定义了一些神经网络模块和损失函数，包括sigmoid、ReLU、Tanh、全连接层、卷积层、MSE、softmax等
 - nn.py: 定义了训练所用的网络模型
 - mnist_loader.py：定义了 mnist 数据集的加载方法
 - train.py：训练文件
